@@ -1,0 +1,134 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #E8F6EF; */
+    padding: 0;
+    margin: 0;
+}
+
+.color-area{
+    height: 200px;
+    width: auto;
+    background: rgb(167,172,243);
+    background: linear-gradient(90deg, rgba(167,172,243,1) 6%, rgba(69,201,197,1) 88%);
+}
+
+
+.header{
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    height: 100px;
+    margin-top: 25px;
+}
+
+input{
+    margin-top: 15px;
+}
+
+.txtInput{
+    padding: 5px 10px;
+    outline-style: none;
+    font-size: 15px;
+}
+
+.btnSubmit{
+    background-color: #B5EAEA;
+    padding: 5px 10px;
+    outline-style: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+table{
+    margin: 10px auto;
+    outline-style: none;
+    border-top: 1px solid #d3d7da;
+}
+
+table td, table th{
+    padding: 10px 60px 10px 10px;
+}
+
+td:hover, a:hover{
+    background-color: #EFEFEF;
+}
+
+thead{
+    text-align: left;
+    width: auto;
+    letter-spacing: 2px;
+}
+
+.todo{
+    background-color: pink;
+}
+
+.doing{
+    background-color: rgb(247, 244, 93);
+}
+
+.action{
+    background-color: rgb(250, 85, 85);
+}
+
+
+tbody td{
+    letter-spacing: 1px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 3px;
+    box-shadow: 1px 0.1px 1px 0.2px #DDDDDD; 
+    padding-right: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+/* login page */
+
+.Top-header{
+    background-color: aqua;
+    top: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    line-height: 22.5px;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between  ;
+    padding: 0 20px 0 20px;
+    width: 1300px;
+    min-width: auto;
+    max-width: 1300px;
+    min-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav, h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #37352f;
+}
+
+/* hr{
+    background-color:rgb(245, 245, 245);
+    height: 0.1px;
+} */
+
+.log-in, h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: #040404;
+}
+
